@@ -432,12 +432,21 @@ form input[type="checkbox"] {
     left: 0;
 }
 
+
 .slideshow ul li:first-child{
     position: relative;
 }
 
 .slideshow figure {
     margin: 0;
+}
+
+.slideshow ul li .active{
+    display: block;
+}
+
+.slideshow ul li .not-active{
+    display: none;
 }
 
 /* Buttons für die Slideshow */
