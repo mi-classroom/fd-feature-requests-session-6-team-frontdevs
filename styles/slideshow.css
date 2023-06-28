@@ -1,0 +1,16 @@
+#slideshow {
+    position: relative;
+    width: 100rem;
+}
+#slideshow img {
+    width: 100%;
+    display: none;
+}
+
+
+#left-arrow, #right-arrow {
+    position: absolute;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+  }
